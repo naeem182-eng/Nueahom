@@ -1,4 +1,5 @@
-export default {
+export default 
+{
   content: [
     "./index.html",
     "./src/**/*.{js,jsx}"
@@ -13,5 +14,8 @@ export default {
     },
   },
   plugins: [],
+  fontFamily: {
+    sans: ["Google Sans Thai", "system-ui", "sans-serif"],
+  },
 }
 
