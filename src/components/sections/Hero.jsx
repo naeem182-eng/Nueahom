@@ -19,7 +19,6 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
         src="/videos/grilled-beef.mp4"
         autoPlay
-        muted
         playsInline
       />
 
