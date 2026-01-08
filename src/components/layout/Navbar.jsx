@@ -4,6 +4,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         
         {/* Logo */}
+         {/* LEFT : Logo */}
+          <img
+            src="/Logo.jpg"
+            alt="Nueahom logo"
+            className="h-10 w-auto object-contain md:h-14"
+          />
         <div className="text-white text-xl font-semibold tracking-wide"
         >
           เนื้อหอม

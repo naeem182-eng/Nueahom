@@ -1,5 +1,4 @@
-export default 
-{
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx}"
@@ -9,13 +8,19 @@ export default
       colors: {
         primary: "#9B1C1C",
         dark: "#0F0F0F",
-        darkgray: "#1F1F1F"
-      }
+        darkgray: "#1F1F1F",
+      },
+      fontFamily: {
+        sans: [
+          "Noto Sans Thai",
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "sans-serif",
+        ],
+      },
     },
   },
   plugins: [],
-  fontFamily: {
-    sans: ["Google Sans Thai", "system-ui", "sans-serif"],
-  },
-}
-
+};
