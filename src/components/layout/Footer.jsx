@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className="bg-neutral-950 text-neutral-400">
+    <footer className="bg-slate-800 text-neutral-400">
       {/* main footer */}
-      <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12">
         
         {/* Brand */}
         <div className="space-y-4">
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         {/* Navigation */}
-        <div className="space-y-4">
+        {/* <div className="space-y-4">
           <h4 className="text-sm font-medium text-white tracking-wider uppercase">
             Menu
           </h4>
@@ -26,7 +26,7 @@ const Footer = () => {
             <li className="hover:text-white transition">About</li>
             <li className="hover:text-white transition">Contact</li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Contact / Social */}
         <div className="space-y-4">
