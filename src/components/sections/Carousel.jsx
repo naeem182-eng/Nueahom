@@ -92,12 +92,12 @@ export default function FeaturedCarousel() {
               className="min-w-[80%] md:min-w-[60%] lg:min-w-[45%] px-4"
             >
               <div className="group rounded-2xl bg-zinc-100 backdrop-blur-md shadow-lg hover:shadow-2xl transition">
-                <div className="aspect-[4/3] flex items-center bg-gray-300 justify-center">
+                <div className="h-48 sm:h-56 md:h-64 lg:h-72 flex items-center justify-center bg-gray-300" >
                   <img
                     src={item.image}
                     alt={item.title}
                     onClick={() => setSelectedImage(item)}
-                    className="max-h-full object-contain cursor-zoom-in group-hover:scale-105 transition duration-500 drop-shadow-xl"
+                    className="h-full w-full object-contain cursor-zoom-in group-hover:scale-105 transition duration-500 drop-shadow-xl"
                   />
                 </div>
 
