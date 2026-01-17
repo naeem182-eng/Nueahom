@@ -27,7 +27,7 @@ export default function Navbar() {
           <li><a href="#products" className="hover:text-white">สินค้า</a></li>
           <li><a href="#halal" className="hover:text-white">ฮาลาล & คุณภาพ</a></li>
           <li><a href="#reviews" className="hover:text-white">รีวิว</a></li>
-          <li><a href="#contact" className="hover:text-white">ติดต่อ</a></li>
+          <li><a href="#about-us" className="hover:text-white">ติดต่อ</a></li>
         </ul>
 
         {/* Desktop CTA */}

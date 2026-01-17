@@ -1,7 +1,7 @@
 const TrustSection = () => {
 
     return (
-    <section className="bg-gray-300 text-black">
+    <section id="halal" className="bg-gray-300 text-black">
       <div className="mx-auto px-6 py-24">
 
         {/* headline */}
@@ -28,7 +28,7 @@ const TrustSection = () => {
               คัดจากแหล่งที่ไว้ใจได้
             </h3>
             <p className="text-slate-700 text-2xl leading-relaxed">
-              เลือกเฉพาะเนื้อจากฟาร์มที่มีมาตรฐาน
+              เลือกเฉพาะเนื้อจากฟาร์มที่มีมาตรฐานฮาลาล
               ตรวจสอบย้อนกลับได้ทุกล็อต
             </p>
         </div>

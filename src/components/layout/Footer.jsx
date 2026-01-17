@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-slate-800 text-neutral-400">
+    <footer id="about-us" className="bg-slate-800 text-neutral-400">
       {/* main footer */}
       <div className="mx-auto px-6 py-16 grid grid-cols-2 md:grid-cols-2 gap-12 justify-between">
 
@@ -18,7 +18,7 @@ const Footer = () => {
             เนื้อหอม
           </h3>
           <p className="text-xl leading-relaxed">
-            เนื้อย่างพรีเมี่ยม<br />
+            เนื้อพรีเมี่ยม<br />
             คัดสรรด้วยใจ เพื่อทุกมื้อพิเศษ
           </p>
         </div>
@@ -42,9 +42,24 @@ const Footer = () => {
             Contact
           </h4>
           <ul className="space-y-2 text-xl">
-            <li>Instagram</li>
-            <li>Facebook</li>
-            <li>LINE Official</li>
+            <li className="flex items-center gap-3">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk1qXGzh_3SqnjKfLj7ojoe1sNS3XmSzpYGTIFuVQQhw1WQfizbeFbtoWL&s"/>
+              <a href="https://maps.app.goo.gl/f1tvhNUMaHKSwyfx8" target="_blank" rel="noopener noreferrer"
+            onClick={() => {
+            window.gtag?.('event', 'click_map');
+            }}>ดูของจริง ไม่จกตา ที่ร้านเรา</a></li>
+            <li className="flex items-center gap-3">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/250px-Facebook_Logo_%282019%29.png" alt="Facebook" className="w-8 h-8" />
+              <a href="https://www.facebook.com/profile.php?id=61572980017738" target="_blank" rel="noopener noreferrer"
+              onClick={() => {
+              window.gtag?.('event', 'click_facebook');
+              }}>เนื้อหอม Premium Beef Halal </a></li>
+            <li className="flex items-center gap-3">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Facebook_Messenger_logo_2025.svg" alt="Messenger" className="w-8 h-8" />
+              <a href="https://m.me/์NueaHom" target="_blank" rel="noopener noreferrer"
+              onClick={() => {
+              window.gtag?.('event', 'click_facebook');
+              }}>เนื้อหอม Premium Beef Halal </a></li>
           </ul>
         </div>
 
