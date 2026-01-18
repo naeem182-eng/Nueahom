@@ -38,7 +38,7 @@ const TrustSection = () => {
               02
             </span>
             <h3 className="text-4xl font-medium">
-              กระบวนการที่โปร่งใส
+              กระบวนการผลิตที่สะอาด
             </h3>
             <p className="text-slate-700 text-2xl leading-relaxed">
               ตั้งแต่การตัดแต่ง การจัดเก็บ

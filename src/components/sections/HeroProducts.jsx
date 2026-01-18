@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 
-const title = "Premium Beef Halal";
+const title = "Premier Halal Products";
 const subtitle =
-  "เนื้อวัวฮาลาลพรีเมียม คัดคุณภาพ สำหรับย่าง ชาบู และสเต็ก";
+  "ใส่ใจในทุกรายละเอียด เพราะมื้ออาหาร คือรสชาติแห่งความทรงจำ";
 
-export default function Hero() {
+export default function HeroProducts() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -18,7 +17,7 @@ export default function Hero() {
       {/* Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/videos/grilled-beef.mp4"
+        src="/videos/heroProducts.mp4"
         autoPlay
         playsInline
       />
@@ -60,15 +59,15 @@ export default function Hero() {
           </p>
 
           {/* CTA */}
-          <Link to="/products"
+          <p
             className={`inline-block px-8 py-3 rounded-md bg-primary text-white text-sm font-medium
             transition-all duration-700
             ease-[cubic-bezier(.22,.61,.36,1)]
             ${show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2"}`}
             style={{ transitionDelay: "1400ms" }}
           >
-            ดูสินค้า
-          </Link>
+            คัดสรรมาแล้วเพื่อคุณ
+          </p>
         </div>
       </div>
     </section>

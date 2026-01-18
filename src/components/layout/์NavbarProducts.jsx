@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export default function NavbarProducts() {
   const [open, setOpen] = useState(false);
 
   return (
@@ -24,19 +24,12 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex mx-auto w-full max-w-3xl items-center justify-between text-sm text-gray-200 tracking-wide">
-          <li><Link to="/products" className="hover:text-white">ดูสินค้า</Link></li>
+          <li><Link to="/" className="hover:text-white">หน้าแรก</Link></li>
+          <li><Link to="/products" className="hover:text-white">สินค้า</Link></li>
           <li><Link to="/#halal" className="hover:text-white">ฮาลาล & คุณภาพ</Link></li>
           <li><Link to="/#reviews" className="hover:text-white">รีวิว</Link></li>
-          <li><Link to="#about-us" className="hover:text-white">ติดต่อ</Link></li>
+          <li><Link to="/#contact" className="hover:text-white">ติดต่อ</Link></li>
         </ul>
-
-        {/* Desktop CTA */}
-        <Link to="/products"
-          className="hidden md:inline-block bg-red-600 hover:bg-red-700
-                     text-white px-5 py-2 rounded-full text-sm font-medium transition shrink-0"
-        >
-          สั่งซื้อ
-        </Link>
 
         {/* Mobile Button */}
         <button
@@ -58,7 +51,7 @@ export default function Navbar() {
             ["สินค้า", "/products"],
             ["ฮาลาล & คุณภาพ", "/#halal"],
             ["รีวิว", "/#reviews"],
-            ["ติดต่อ", "/#contact"],
+            ["ติดต่อ", "#contact"],
           ].map(([label, link]) => (
             <li key={label}>
               <a
@@ -70,15 +63,6 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-
-          {/* Mobile CTA */}
-          <Link to="/products"
-            className="mt-4 inline-block text-center bg-red-600 hover:bg-red-700
-                       text-white py-3 rounded-full font-medium transition"
-            onClick={() => setOpen(false)}
-          >
-            สั่งซื้อ
-          </Link>
         </ul>
       </div>
     </nav>

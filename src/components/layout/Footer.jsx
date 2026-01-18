@@ -37,7 +37,7 @@ const Footer = () => {
         </div> */}
 
         {/* Contact / Social */}
-        <div className="space-y-4 flex flex-col mt-auto">
+        <div  id="contact" className="space-y-4 flex flex-col mt-auto">
           <h4 className="text-xl font-medium text-white tracking-wider uppercase">
             Contact
           </h4>

@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight, Images } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const items = [
   {
@@ -68,12 +69,11 @@ export default function FeaturedCarousel() {
         <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">
           Selected Cuts
         </h2>
-        <a
-          href="/products"
+        <Link to="/products"
           className="text-sm font-medium text-gray-400 hover:text-white transition"
         >
           View all products →
-        </a>
+        </Link>
       </div>
 
       {/* Carousel */}
@@ -109,7 +109,7 @@ export default function FeaturedCarousel() {
                     {item.subtitle}
                   </p>
                   <span className="inline-block text-sm text-rose-400 font-medium">
-                    Explore →
+                    <Link to="/products">ดูเพิ่มเติม →</Link>
                   </span>
                 </div>
               </div>
