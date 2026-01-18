@@ -334,7 +334,7 @@ export const productsData = [
     active: true,
   },
   {
-    id: "hum-steak",
+    id: "hum-steak1",
     name: "Hum Steak Cut",
     category: "steak", // slice | steak | dice | ground
     description: "คัดเฉพาะชิ้นสวย สำหรับสายสเต็กตัวจริง",
@@ -351,7 +351,7 @@ export const productsData = [
     active: true,
   },
     {
-    id: "hum-steak",
+    id: "hum-steak2",
     name: "Hum Steak Cut",
     category: "steak", // slice | steak | dice | ground
     description: "คัดเฉพาะชิ้นสวย สำหรับสายสเต็กตัวจริง",
