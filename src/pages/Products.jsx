@@ -39,7 +39,7 @@ const products = useMemo(() => {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   return (
-    <div className="bg-dark text-white">
+    <div className="bg-dark text-white pt-24 md:pt-28">
       <NavbarProducts />
       <HeroProducts />
 

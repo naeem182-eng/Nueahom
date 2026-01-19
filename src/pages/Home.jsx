@@ -6,7 +6,7 @@ import Carousel from "../components/sections/Carousel";
 
 export default function Home() {
   return (
-    <div className="bg-dark text-white">
+    <div className="bg-dark text-white pt-24 md:pt-28">
       <Navbar />
       <Hero />
       <Carousel />

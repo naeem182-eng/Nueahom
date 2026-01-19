@@ -13,7 +13,7 @@ export default function HeroProducts() {
   }, []);
 
   return (
-    <section className="relative h-[50vh] bg-black overflow-hidden font-sans">
+    <section className="relative min-h-[50vh] pt-28 bg-black overflow-hidden font-sans">
       {/* Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
