@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/videos/grilled-beef.mp4"
+        src="https://res.cloudinary.com/dcwlgjz6z/video/upload/v1769274606/grilled-beef_wtvs7s.mp4"
         autoPlay
         playsInline
       />

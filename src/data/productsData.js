@@ -6,7 +6,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "200 กรัม",
     price: 99,
-    image: "/products/SamchunSlice200.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274583/SamchunSlice200_ut5bb1.png",
     promo: {
       label: "ขายดี",
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -23,7 +23,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "200 กรัม",
     price: 99,
-    image: "/products/BaipaiSlice200.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274582/BaipaiSlice200_ctmv4z.png",
     promo: {
       label: "ขายดี",
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -40,7 +40,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "200 กรัม",
     price: 99,
-    image: "/products/RibeyeSlice200.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274593/RibeyeSlice200_fhfvjc.png",
     promo: {
       label: "ขายดี",
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -57,7 +57,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "200 กรัม",
     price: 99,
-    image: "/products/HumSlice200.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274584/HumSlice200_yvzln7.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -74,7 +74,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "200 กรัม",
     price: 99,
-    image: "/products/LinSlice200.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274590/LinSlice200_ucv2yr.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -91,7 +91,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "200 กรัม",
     price: 109,
-    image: "/products/PicanhaSlice200.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274591/PicanhaSlice200_fhlehd.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -109,7 +109,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "200 กรัม",
     price: 109,
-    image: "/products/NokSlice200.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274590/NokSlice200_lk9wlr.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -127,7 +127,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "200 กรัม",
     price: 109,
-    image: "/products/SueAusSlice200.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274587/SueAusSlice200_oxjczx.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -145,7 +145,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "500 กรัม",
     price: 189,
-    image: "/products/SamChunSlice500.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274585/SamChunSlice500_ymgofm.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -181,7 +181,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "500 กรัม",
     price: 189,
-    image: "/products/BaiPaiSlice500.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274588/SunNokSlice500_grsrbb.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -199,7 +199,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "500 กรัม",
     price: 189,
-    image: "/products/HumSlice500.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274585/HumSlice500_ls4xca.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -217,7 +217,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "500 กรัม",
     price: 189,
-    image: "/products/RibeyeSlice500.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274582/RibeyeSlice500_cuvsks.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -235,7 +235,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "500 กรัม",
     price: 189,
-    image: "/products/LinSlice500.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274591/LinSlice500_jdggzf.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -253,7 +253,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "500 กรัม",
     price: 199,
-    image: "/products/PicanhaSlice500.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274592/PicanhaSlice500_p542ca.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -270,7 +270,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "500 กรัม",
     price: 199,
-    image: "/products/NokSlice500.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274589/NokSlice500_gvpb4e.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -287,7 +287,7 @@ export const productsData = [
     description: "บางกำลังดี สำหรับชาบูและปิ้งย่าง",
     weight: "500 กรัม",
     price: 199,
-    image: "/products/SueAusSlice500.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274587/SueAusSlice500_ukh9q9.png",
     promo: {
       label: null,
       price: null, // ถ้ามีราคาพิเศษ ใส่ตัวเลข
@@ -306,7 +306,7 @@ export const productsData = [
     description: "คัดเฉพาะชิ้นสวย สำหรับสายสเต็กตัวจริง",
     weight: "ระบุบนบรรจุภัณฑ์",
     price: null,
-    image: "/products/TomahawkSteak.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274589/TomahawkSteak_h8rzxb.png",
     promo: {
       label: "พรีเมียม",
       price: null,
@@ -323,7 +323,7 @@ export const productsData = [
     description: "คัดเฉพาะชิ้นสวย สำหรับสายสเต็กตัวจริง",
     weight: "ระบุบนบรรจุภัณฑ์",
     price: null,
-    image: "/products/TboneSteak.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274587/TboneSteak_qy3vux.png",
     promo: {
       label: "พรีเมียม",
       price: null,
@@ -340,7 +340,7 @@ export const productsData = [
     description: "คัดเฉพาะชิ้นสวย สำหรับสายสเต็กตัวจริง",
     weight: "ระบุบนบรรจุภัณฑ์",
     price: null,
-    image: "/products/HumSteak.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274585/HumSteak_aguvnh.png",
     promo: {
       label: "พรีเมียม",
       price: null,
@@ -357,7 +357,7 @@ export const productsData = [
     description: "คัดเฉพาะชิ้นสวย สำหรับสายสเต็กตัวจริง",
     weight: "ระบุบนบรรจุภัณฑ์",
     price: null,
-    image: "/products/HumSteak2.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274588/HumSteak2_yfxwda.png",
     promo: {
       label: "พรีเมียม",
       price: null,
@@ -374,7 +374,7 @@ export const productsData = [
     description: "คัดเฉพาะชิ้นสวย สำหรับสายสเต็กตัวจริง",
     weight: "ระบุบนบรรจุภัณฑ์",
     price: null,
-    image: "/products/PicanhaSteak.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274591/PicanhaSteak_ginlct.png",
     promo: {
       label: "พรีเมียม",
       price: null,
@@ -391,7 +391,7 @@ export const productsData = [
     description: "คัดเฉพาะชิ้นสวย สำหรับสายสเต็กตัวจริง",
     weight: "ระบุบนบรรจุภัณฑ์",
     price: null,
-    image: "/products/RibeyeSteak.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274583/RibeyeSteak_gpshpt.png",
     promo: {
       label: "พรีเมียม",
       price: null,
@@ -408,7 +408,7 @@ export const productsData = [
     description: "คัดเฉพาะชิ้นสวย สำหรับสายสเต็กตัวจริง",
     weight: "ระบุบนบรรจุภัณฑ์",
     price: null,
-    image: "/products/SirloinSteak.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274584/SirloinSteak_kbka69.png",
     promo: {
       label: "พรีเมียม",
       price: null,
@@ -425,7 +425,7 @@ export const productsData = [
     description: "คัดเฉพาะชิ้นสวย สำหรับสายสเต็กตัวจริง",
     weight: "ระบุบนบรรจุภัณฑ์",
     price: null,
-    image: "/products/TenderloinSteak.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274589/TenderloinSteak_awgxtf.png",
     promo: {
       label: "พรีเมียม",
       price: null,
@@ -442,7 +442,7 @@ export const productsData = [
     description: "บดสด เหมาะทั้งเบอร์เกอร์และอาหารบ้าน",
     weight: "500 กรัม",
     price: 159,
-    image: "/products/GroundBeef.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274586/GroundBeef_m11byp.png",
     promo: null,
     contact: {
       messengerText: "สนใจ เนื้อบด 500 กรัม ราคา 159 บาท",
@@ -470,7 +470,7 @@ export const productsData = [
     description: "อร่อย นุ่ม สะใจ",
     weight: "100 กรัม",
     price: 139,
-    image: "/products/BurgerPatty100.png",
+    image: "https://res.cloudinary.com/dcwlgjz6z/image/upload/v1769274582/BurgerPatty100_yi74uk.png",
     promo: null,
     contact: {
       messengerText: "สนใจ เนื้อเบอร์เกอร์ 100 กรัม ราคา - บาท",

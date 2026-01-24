@@ -17,7 +17,7 @@ export default function HeroProducts() {
       {/* Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/videos/heroProducts.mp4"
+        src="https://res.cloudinary.com/dcwlgjz6z/video/upload/v1769274607/heroProducts_qtdqbq.mp4"
         autoPlay
         playsInline
       />
